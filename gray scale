@@ -1,0 +1,6 @@
+import cv2
+a="E:\\misc1\\misc\\4.2.07.tiff"
+b=cv2.imread(a,0)
+cv2.imshow('linux',b)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
